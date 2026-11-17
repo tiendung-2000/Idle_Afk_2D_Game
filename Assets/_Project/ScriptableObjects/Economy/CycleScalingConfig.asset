@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 249cf412d863aaf42be192829cb5a6b7, type: 3}
+  m_Name: CycleScalingConfig
+  m_EditorClassIdentifier: PixelImmortal.Runtime::PixelImmortal.Data.CycleScalingConfig
+  hp:
+    a: 1.5
+    b: 0.8
+    maxFactor: 1000
+  attack:
+    a: 1.5
+    b: 0.8
+    maxFactor: 1000
+  density:
+    a: 0.1
+    b: 0.3
+    maxFactor: 3
+  reward:
+    a: 0.6
+    b: 0.4
+    maxFactor: 1000
+  mapStep: 0.35

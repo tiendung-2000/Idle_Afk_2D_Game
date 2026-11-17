@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4cb8796ee939e43a66da4014776737, type: 3}
+  m_Name: Gacha_main
+  m_EditorClassIdentifier: PixelImmortal.Runtime::PixelImmortal.Data.GachaPoolDefinition
+  id: main
+  costResource: 0
+  costPerPull: 400
+  entries:
+  - item: {fileID: 11400000, guid: 4dc3c03167cbf9c41a271b9a893a6be9, type: 2}
+    weight: 55
+  - item: {fileID: 11400000, guid: 00372c6f51468f34baeb6dd087d2c708, type: 2}
+    weight: 28
+  - item: {fileID: 11400000, guid: 3747ee90d2b0da24e9da7aad289964f9, type: 2}
+    weight: 12
+  - item: {fileID: 11400000, guid: ba1099f59539369438b49939770ddd6a, type: 2}
+    weight: 4
+  - item: {fileID: 11400000, guid: 5da3d90324129df41956be4f59d7846d, type: 2}
+    weight: 1
+  - item: {fileID: 11400000, guid: 351d53ac70810504299f3228332aac6e, type: 2}
+    weight: 55
+  - item: {fileID: 11400000, guid: 9bc51817f9448664e9b36a0b2aa1a3cf, type: 2}
+    weight: 28
+  - item: {fileID: 11400000, guid: d41168f8bd5e83b4297c4246c013b07d, type: 2}
+    weight: 12
+  - item: {fileID: 11400000, guid: 482b70ac975ff33408bfe9965faabb64, type: 2}
+    weight: 4
+  - item: {fileID: 11400000, guid: 93bb013c135ff1c4cb8f065c3f2d4dc5, type: 2}
+    weight: 1
+  - item: {fileID: 11400000, guid: c41baf62d74e1784ea2416968cccab18, type: 2}
+    weight: 55
+  - item: {fileID: 11400000, guid: e96c3767db6795043949cc5c54f69940, type: 2}
+    weight: 28
+  - item: {fileID: 11400000, guid: 3d484fb357ad1bc4eab70499e7e1829e, type: 2}
+    weight: 12
+  - item: {fileID: 11400000, guid: 508a5f0f818606d4f91e5560f53d4106, type: 2}
+    weight: 4
+  - item: {fileID: 11400000, guid: 3d4c64a7cf540c543a9361228526ed0d, type: 2}
+    weight: 1

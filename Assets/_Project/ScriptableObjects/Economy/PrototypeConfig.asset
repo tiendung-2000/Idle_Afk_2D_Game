@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7c00506026dfd48bc199f3e5f77f16, type: 3}
+  m_Name: PrototypeConfig
+  m_EditorClassIdentifier: Assembly-CSharp::PixelImmortal.Data.PrototypeConfig
+  maps:
+  - {fileID: 11400000, guid: 16ae74761187b63498c9724e67d9edd5, type: 2}
+  - {fileID: 11400000, guid: aba54a8318e87374eb3a9c4f1d57eae9, type: 2}
+  - {fileID: 11400000, guid: b6476b3a95fd58e4ba7cd635ec1295f9, type: 2}
+  scaling: {fileID: 11400000, guid: 22dbd111d13fe6f44b45b00b55c96371, type: 2}
+  economy: {fileID: 11400000, guid: 51ad7eb08474c59499ea73129d2e7583, type: 2}
+  art: {fileID: 11400000, guid: 8d97dbd389e93954bbbbe4cbbde65e78, type: 2}
+  localizationCsv: {fileID: 4900000, guid: 5425bd6270d4af04783561851aead8d5, type: 3}
+  arenaSize: {x: 8, y: 10}
+  playerMaxHp: 300
+  playerAttack: 12
+  playerAttackInterval: 0.5
+  playerAttackRange: 6
+  respawnSeconds: 2
+  respawnInvulnerableSeconds: 1.5
+  enemyHp: 40
+  enemyAttack: 6
+  enemyAttackInterval: 1
+  enemyMoveSpeed: 1.4
+  enemyAttackRange: 0.9
+  enemyScale: 0.7
+  eliteHpMultiplier: 3
+  eliteAttackMultiplier: 1.5
+  eliteScale: 1
+  bossHp: 1200
+  bossAttack: 20
+  bossAttackInterval: 1.2
+  bossTelegraphSeconds: 0.5
+  bossMoveSpeed: 0.9
+  bossAttackRange: 1.4
+  bossScale: 1.8
+  spawnStaggerSeconds: 0.25
+  groupIntervalSeconds: 1
+  maxActiveEnemies: 24
+  waveTransitionSeconds: 0.5
+  minSpawnDistanceFromPlayer: 3
+  bossResultSeconds: 1.5
+  mapFadeSeconds: 0.5

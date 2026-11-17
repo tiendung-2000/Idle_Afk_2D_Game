@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed92690318d70549af190ec010b3b68, type: 3}
+  m_Name: Map_thanh_truc_lam
+  m_EditorClassIdentifier: Assembly-CSharp::PixelImmortal.Data.MapDefinition
+  mapId: thanh_truc_lam
+  displayName: "Thanh Tr\xFAc L\xE2m"
+  bossName: "Thanh Tr\xFAc Y\xEAu V\u01B0\u01A1ng"
+  backgroundColor: {r: 0.12, g: 0.3, b: 0.2, a: 1}
+  borderColor: {r: 0.05, g: 0.12, b: 0.08, a: 1}
+  bossColor: {r: 0.15, g: 0.55, b: 0.25, a: 1}
+  bossHpMultiplier: 1
+  bossAttackMultiplier: 1
+  roster:
+  - id: linh_slime
+    displayName: Linh Slime
+    color: {r: 0.5, g: 0.95, b: 0.5, a: 1}
+    scale: 0.65
+    hpMultiplier: 0.8
+    attackMultiplier: 0.8
+    speedMultiplier: 0.8
+    spawnWeight: 3
+  - id: yeu_lang
+    displayName: "Y\xEAu Lang"
+    color: {r: 0.6, g: 0.6, b: 0.65, a: 1}
+    scale: 0.7
+    hpMultiplier: 1
+    attackMultiplier: 1.1
+    speedMultiplier: 1.4
+    spawnWeight: 2
+  - id: yeu_trung
+    displayName: "Y\xEAu Tr\xF9ng"
+    color: {r: 0.8, g: 0.9, b: 0.3, a: 1}
+    scale: 0.55
+    hpMultiplier: 0.7
+    attackMultiplier: 0.9
+    speedMultiplier: 1.2
+    spawnWeight: 2
+  - id: tinh_linh_rung
+    displayName: "Tinh Linh R\u1EEBng"
+    color: {r: 0.4, g: 0.85, b: 0.75, a: 1}
+    scale: 0.7
+    hpMultiplier: 1.2
+    attackMultiplier: 1
+    speedMultiplier: 1
+    spawnWeight: 1
+  waves:
+  - groupCount: 3
+    enemiesPerGroup: 3
+    eliteCountInFinalGroup: 1
+    difficultyOffset: 0
+    estimatedClearSeconds: 10.4
+  - groupCount: 3
+    enemiesPerGroup: 3
+    eliteCountInFinalGroup: 1
+    difficultyOffset: 0.035
+    estimatedClearSeconds: 10.4
+  - groupCount: 3
+    enemiesPerGroup: 3
+    eliteCountInFinalGroup: 1
+    difficultyOffset: 0.07
+    estimatedClearSeconds: 10.4
+  - groupCount: 3
+    enemiesPerGroup: 4
+    eliteCountInFinalGroup: 1
+    difficultyOffset: 0.105000004
+    estimatedClearSeconds: 10.4
+  - groupCount: 3
+    enemiesPerGroup: 4
+    eliteCountInFinalGroup: 1
+    difficultyOffset: 0.14
+    estimatedClearSeconds: 10.4
+  - groupCount: 3
+    enemiesPerGroup: 4
+    eliteCountInFinalGroup: 1
+    difficultyOffset: 0.175
+    estimatedClearSeconds: 10.4
+  - groupCount: 3
+    enemiesPerGroup: 5
+    eliteCountInFinalGroup: 1
+    difficultyOffset: 0.21000001
+    estimatedClearSeconds: 10.4
+  - groupCount: 3
+    enemiesPerGroup: 5
+    eliteCountInFinalGroup: 1
+    difficultyOffset: 0.245
+    estimatedClearSeconds: 10.4
+  - groupCount: 3
+    enemiesPerGroup: 5
+    eliteCountInFinalGroup: 1
+    difficultyOffset: 0.28
+    estimatedClearSeconds: 10.4
+  - groupCount: 3
+    enemiesPerGroup: 6
+    eliteCountInFinalGroup: 1
+    difficultyOffset: 0.315
+    estimatedClearSeconds: 10.4

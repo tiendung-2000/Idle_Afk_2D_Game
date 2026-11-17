@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71da7aff6c1362e4e942c219accd3c0b, type: 3}
+  m_Name: skill_bang_hoan
+  m_EditorClassIdentifier: PixelImmortal.Runtime::PixelImmortal.Data.SkillDefinition
+  id: skill_bang_hoan
+  displayName: "B\u0103ng Ho\xE0n"
+  kind: 2
+  unlockRealmIndex: 2
+  cooldown: 6
+  baseMultiplier: 2.5
+  perLevelBonus: 0.15
+  range: 6
+  radius: 1.8
+  projectileSpeed: 8
+  slowAmount: 0.4
+  slowSeconds: 2.5
+  shieldReduction: 0.4
+  shieldSeconds: 4
+  upgradeBaseCost: 2
+  upgradeGrowthRate: 1.5
+  maxLevel: 20
+  vfxColor: {r: 0.4, g: 0.85, b: 1, a: 0.8}
+  vfxSeconds: 0.25

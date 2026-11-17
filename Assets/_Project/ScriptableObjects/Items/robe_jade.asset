@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e306f12504d7242ab88a47a7962581, type: 3}
+  m_Name: robe_jade
+  m_EditorClassIdentifier: PixelImmortal.Runtime::PixelImmortal.Data.ItemDefinition
+  id: robe_jade
+  slot: 1
+  rarity: 2
+  modifiers:
+  - stat: 1
+    value: 0.22
+  requiredRealmIndex: 1
+  dropSources: 6
+  dropWeight: 10
+  iconColor: {r: 0.4, g: 0.6, b: 1, a: 1}

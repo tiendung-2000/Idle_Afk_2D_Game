@@ -1,0 +1,256 @@
+key,vi,en
+# ---- HUD ----
+hud.title,Chương {0}  Vòng {1}  {2},Chapter {0}  Cycle {1}  {2}
+hud.wave,Màn {0}/{1}   Quái {2}   Hạ {3},Wave {0}/{1}   Enemies {2}   Kills {3}
+hud.hp,HP {0}/{1},HP {0}/{1}
+hud.defeated,Đã gục - đang hồi sinh...,Defeated - reviving...
+hud.boss_hp,{0}  {1}/{2},{0}  {1}/{2}
+hud.resource,{0} {1},{0} {1}
+hud.language,{0},{0}
+res.linh_thach,Linh Thạch,Spirit Stone
+res.linh_khi,Linh Khí,Spirit Qi
+res.tinh_hoa,Tinh Hoa,Essence
+res.short.linh_thach,LT,SS
+res.short.linh_khi,LK,SQ
+res.short.tinh_hoa,TH,ES
+state.farming,Đang cày quái,Farming
+state.wave_cleared,Qua màn,Wave cleared
+state.boss_ready,Boss sẵn sàng - đang cày màn {0},Boss ready - farming wave {0}
+state.boss_fight,TRẬN BOSS,BOSS FIGHT
+state.boss_win,Đã hạ Boss!,Boss defeated!
+state.boss_lose,Boss thắng - quay lại cày,Boss won - back to farming
+state.travel,Đang di chuyển...,Travelling...
+# ---- Buttons ----
+btn.upgrades,Nâng cấp,Upgrades
+btn.skills,Kỹ năng,Skills
+btn.cultivate,Tu luyện,Cultivate
+btn.quests,Nhiệm vụ,Quests
+btn.quests_alert,Nhiệm vụ (!),Quests (!)
+btn.challenge_boss,THÁCH ĐẤU BOSS,CHALLENGE BOSS
+btn.claim,Nhận,Claim
+btn.ok,OK,OK
+btn.max,TỐI ĐA,MAX
+btn.locked,Khóa,Locked
+btn.breakthrough,ĐỘT PHÁ,BREAKTHROUGH
+btn.leave,Rời đi,Leave
+btn.stay,Ở lại,Stay
+btn.quit,Thoát,Quit
+exit.confirm,Thoát game?\nTiến trình được lưu tự động.,Quit the game?\nProgress is saved automatically.
+# ---- Menu: upgrades / skills / cultivation ----
+menu.upgrade_row,{0}  Cấp {1}{2}\n+{3}% tổng  (+{4}% mỗi cấp),{0}  Lv {1}{2}\n+{3}% total  (+{4}% per level)
+menu.upgrade_cost,{0} {1},{0} {1}
+menu.skill_row,{0}  Cấp {1}/{2}\n{3}   Hồi chiêu {4}s,{0}  Lv {1}/{2}\n{3}   Cooldown {4}s
+menu.skill_locked,{0}\nKhóa - cần đạt {1},{0}\nLocked - reach {1}
+skill.effect_damage,Sát thương x{0},Damage x{0}
+skill.effect_shield,Giảm sát thương {0}% trong {1}s,Damage -{0}% for {1}s
+cult.max,Cảnh giới: {0}\nĐã đạt cảnh giới cao nhất (có thể thêm bằng dữ liệu).,Realm: {0}\nHighest realm reached (more can be added in data).
+cult.row,Cảnh giới: {0}\nTiếp theo: {1}\nLinh Khí {2}/{3}   Linh Thạch {4}/{5}   Chương {6}/{7}\nCông x{8}  HP x{9},Realm: {0}\nNext: {1}\nSpirit Qi {2}/{3}   Spirit Stone {4}/{5}   Chapter {6}/{7}\nAttack x{8}  HP x{9}
+# ---- Quests ----
+quest.objective.KillEnemies,Hạ {0} yêu quái,Defeat {0} enemies
+quest.objective.EarnLinhThach,Thu {0} Linh Thạch,Collect {0} Spirit Stone
+quest.objective.EarnLinhKhi,Nhận {0} Linh Khí,Gain {0} Spirit Qi
+quest.objective.UpgradeTimes,Nâng cấp {0} lần,Upgrade {0}x
+quest.objective.CompleteWaves,Hoàn thành {0} màn,Clear {0} waves
+quest.objective.DefeatBoss,Đánh bại Boss {0} lần,Defeat the Boss {0}x
+quest.row,{0}\n{1}\n{2}/{3}   Thưởng: {4},{0}\n{1}\n{2}/{3}   Reward: {4}
+quest.reward_part,{0} {1},{0} {1}
+quest.status.claimed,Đã nhận,Claimed
+quest.status.claim,Nhận,Claim
+quest.status.progress,Chưa xong,In progress
+quest.footer,Nhiệm vụ làm mới sau {0}. Phần thưởng chưa nhận sẽ hết hạn.,Quests reset in {0}. Unclaimed rewards expire.
+quest.warn_leave,Bạn còn {0} phần thưởng chưa nhận. Chúng sẽ hết hạn lúc 00:00 (còn {1}).\nRời đi?,You have {0} unclaimed reward(s). They expire at 00:00 (in {1}).\nLeave anyway?
+quest.daily_kill,Diệt yêu ma,Slay demons
+quest.daily_stone,Gom Linh Thạch,Gather spirit stones
+quest.daily_qi,Hấp thụ Linh Khí,Absorb spirit qi
+quest.daily_upgrade,Rèn luyện bản thân,Train yourself
+quest.daily_waves,Vượt ải,Clear the gauntlet
+quest.daily_boss,Trảm Boss,Boss slayer
+# ---- Save / offline popups ----
+save.corrupt,Không thể đọc tệp lưu và bản sao lưu cũng không dùng được.\nChưa có gì bị xóa.,Your save file could not be read and the backup is unusable too.\nNothing has been deleted.
+save.start_new,Bắt đầu mới,Start new game
+save.play_without,Chơi không lưu,Play without saving
+save.backup_notice,Tệp lưu chính bị hỏng. Tiến trình đã được khôi phục từ bản sao lưu.,The main save was damaged. Your progress was restored from the backup.
+offline.welcome,Chào mừng trở lại!\nThời gian ngoại tuyến được tính: {0} (tối đa {1}h)\nHiệu suất: {2}%\n\nLinh Thạch +{3}\nLinh Khí +{4}\nTinh Hoa +{5},Welcome back!\nOffline time counted: {0} (max {1}h)\nEfficiency: {2}%\n\nSpirit Stone +{3}\nSpirit Qi +{4}\nEssence +{5}
+time.hm,{0}g {1:00}p,{0}h {1:00}m
+# ---- Maps ----
+map.thanh_truc_lam,Thanh Trúc Lâm,Azure Bamboo Forest
+map.hoa_son_coc,Hỏa Sơn Cốc,Flame Mountain Valley
+map.han_bang_bi_canh,Hàn Băng Bí Cảnh,Frozen Ice Realm
+boss.thanh_truc_lam,Thanh Trúc Yêu Vương,Azure Bamboo Demon King
+boss.hoa_son_coc,Viêm Sơn Ma Quân,Flame Mountain Demon Lord
+boss.han_bang_bi_canh,Hàn Băng Cổ Tôn,Ancient Frost Sovereign
+# ---- Enemies ----
+enemy.linh_slime,Linh Slime,Spirit Slime
+enemy.yeu_lang,Yêu Lang,Demon Wolf
+enemy.yeu_trung,Yêu Trùng,Demon Insect
+enemy.tinh_linh_rung,Tinh Linh Rừng,Forest Sprite
+enemy.hoa_linh,Hỏa Linh,Fire Spirit
+enemy.thach_giap_thu,Thạch Giáp Thú,Stone Armor Beast
+enemy.quy_nham,Quỷ Nham,Rock Fiend
+enemy.hoa_dieu,Hỏa Điểu,Fire Bird
+enemy.bang_lang,Băng Lang,Frost Wolf
+enemy.tuyet_yeu,Tuyết Yêu,Snow Demon
+enemy.bang_giap_thu,Băng Giáp Thú,Ice Armor Beast
+enemy.han_hon,Hàn Hồn,Frost Wraith
+# ---- Upgrades ----
+upgrade.up_attack,Công Kích,Attack
+upgrade.up_hp,Sinh Lực,Vitality
+upgrade.up_speed,Tốc Độ Đánh,Attack Speed
+upgrade.up_skill,Uy Lực Kỹ Năng,Skill Power
+upgrade.up_offline,Hiệu Suất AFK,AFK Efficiency
+upgrade.up_crit,Chí Mạng,Critical
+# ---- Skills ----
+skill.skill_kiem_khi,Kiếm Khí,Sword Qi
+skill.skill_hoa_cau,Hỏa Cầu,Fireball
+skill.skill_bang_hoan,Băng Hoàn,Frost Ring
+skill.skill_ho_the,Hộ Thể Linh Khí,Qi Barrier
+skill.skill_van_kiem,Vạn Kiếm Quy Tông,Myriad Swords Return
+# ---- Realms ----
+realm.luyen_khi_1,Luyện Khí 1,Qi Refining 1
+realm.luyen_khi_2,Luyện Khí 2,Qi Refining 2
+realm.luyen_khi_3,Luyện Khí 3,Qi Refining 3
+realm.truc_co_1,Trúc Cơ 1,Foundation 1
+realm.truc_co_2,Trúc Cơ 2,Foundation 2
+realm.truc_co_3,Trúc Cơ 3,Foundation 3
+realm.kim_dan_1,Kim Đan 1,Golden Core 1
+realm.kim_dan_2,Kim Đan 2,Golden Core 2
+realm.kim_dan_3,Kim Đan 3,Golden Core 3
+# ---- Equipment ----
+btn.menu,Menu,Menu
+btn.menu_alert,Menu (!),Menu (!)
+btn.equipment,Trang bị,Gear
+btn.gacha,Rút thưởng,Draw
+btn.equip_next,Đổi >,Next >
+btn.unequip,Tháo,Unequip
+btn.pull,Quay x{0},Pull x{0}
+rarity.Common,Thường,Common
+rarity.Uncommon,Tốt,Uncommon
+rarity.Rare,Hiếm,Rare
+rarity.Epic,Sử thi,Epic
+rarity.Legendary,Huyền thoại,Legendary
+slot.Weapon,Vũ khí,Weapon
+slot.Armor,Giáp,Armor
+slot.Accessory,Phụ kiện,Accessory
+stat.Attack,Công,Attack
+stat.MaxHp,HP,HP
+stat.AttackSpeed,Tốc đánh,Atk Speed
+stat.SkillDamage,Kỹ năng,Skill Dmg
+stat.OfflineEfficiency,AFK,AFK
+stat.CritChance,Chí mạng,Crit
+stat.line,{0} {1}%,{0} {1}%
+item.label,{0} ({1}),{0} ({1})
+equip.slot_row,{0}: {1}\n{2},{0}: {1}\n{2}
+equip.none,(trống),(empty)
+equip.no_stats,Không có chỉ số,No stats
+equip.same,Không đổi,No change
+equip.preview,Tiếp theo: {0}\nThay đổi: {1}   Sở hữu: {2},Next: {0}\nChange: {1}   Owned: {2}
+equip.no_other,{0}: không có trang bị khác (sở hữu {1}),{0}: no other items (owned {1})
+equip.need_realm,(cần {0}),(needs {0})
+toast.drop,Rơi: {0} ({1}),Drop: {0} ({1})
+# ---- Gacha ----
+gacha.main,Rút trang bị,Equipment draw
+gacha.row,{0}\nGiá mỗi lượt: {1} {2},{0}\nCost per pull: {1} {2}
+gacha.multi,Quay {0} lần\nTổng: {1} {2},Pull {0} times\nTotal: {1} {2}
+gacha.rates,Tỷ lệ: {0},Rates: {0}
+gacha.rate_part,{0} {1}%,{0} {1}%
+gacha.last,Kết quả gần nhất:\n{0},Last pull:\n{0}
+gacha.last_none,Chưa quay lần nào.,No pulls yet.
+gacha.new_tag,MỚI,NEW
+gacha.footer,Tổng số lượt quay: {0},Total pulls: {0}
+gacha.not_enough,Không đủ tài nguyên,Not enough resources
+gacha.invalid,Không thể quay lúc này,Pull unavailable
+item.sword_wood,Mộc Kiếm,Wooden Sword
+item.sword_iron,Thiết Kiếm,Iron Sword
+item.sword_spirit,Linh Kiếm,Spirit Sword
+item.sword_qi,Cổ Kiếm Khí,Ancient Qi Sword
+item.sword_immortal,Tiên Kiếm,Immortal Sword
+item.robe_cloth,Bố Y,Cloth Robe
+item.robe_leather,Giáp Da,Leather Armor
+item.robe_jade,Ngọc Giáp,Jade Armor
+item.robe_dragon,Long Lân Giáp,Dragon Scale Armor
+item.robe_immortal,Tiên Y,Immortal Robe
+item.ring_copper,Đồng Giới,Copper Ring
+item.ring_silver,Ngân Giới,Silver Ring
+item.amulet_jade,Ngọc Bội,Jade Amulet
+item.amulet_spirit,Linh Phù,Spirit Talisman
+item.ring_immortal,Tiên Giới,Immortal Ring
+# ---- First-run hint ----
+intro.text,Nhân vật của bạn tự động chiến đấu.\nMở Menu để nâng cấp và học kỹ năng. Cũng có thể tu luyện và rút trang bị.\nKhi nút Boss xuất hiện hãy thách đấu để sang màn mới.\nQuay lại sau để nhận thưởng ngoại tuyến.,Your cultivator fights on their own.\nOpen the Menu to upgrade and learn skills. You can also cultivate and draw gear.\nWhen the Boss button appears challenge it to reach the next map.\nCome back later to claim offline rewards.
+# ---- Feature screens ----
+nav.character,Nhân vật,Hero
+nav.inventory,Túi đồ,Bag
+char.realm,Cảnh giới: {0}   Chương cao nhất: {1},Realm: {0}   Best chapter: {1}
+char.per_second,{0}/giây,{0}/s
+char.crit_mult,Sát thương chí mạng,Crit damage
+char.damage_reduction,Giảm sát thương,Damage reduction
+char.max_offline,Thưởng ngoại tuyến tối đa,Max offline time
+cult.header,{0}  >  {1},{0}  >  {1}
+cult.bar,{0}: {1} / {2},{0}: {1} / {2}
+cult.chapter,Chương {0} / {1},Chapter {0} / {1}
+cult.gain,Đột phá nhân: Công x{0}  HP x{1},Breakthrough gives: Attack x{0}  HP x{1}
+cult.need,Còn thiếu {1} {0},Need {1} more {0}
+cult.need_chapter,Cần đạt chương {0},Reach chapter {0}
+cult.confirm,Đột phá lên {0}?\nTốn {1} {2} và {3} {4}.\nCông x{5}  HP x{6},Break through to {0}?\nCosts {1} {2} and {3} {4}.\nAttack x{5}  HP x{6}
+cult.success,Đột phá thành công!\nCảnh giới mới: {0}\nCông x{1}  HP x{2},Breakthrough!\nNew realm: {0}\nAttack x{1}  HP x{2}
+btn.cancel,Hủy,Cancel
+btn.equip_item,Trang bị,Equip
+btn.upgrade_cost,Nâng cấp {0} {1},Upgrade {0} {1}
+skill.level_badge,Cấp {0},Lv {0}
+skill.unlock_at,Mở khóa khi đạt {0},Unlocks at {0}
+skill.cooldown,Hồi chiêu: {0}s,Cooldown: {0}s
+skill.now,Hiện tại: {0},Now: {0}
+skill.next,Cấp sau: {0},Next level: {0}
+skill.no_scaling,không đổi theo cấp,does not scale with level
+skill.max_level,Đã đạt cấp tối đa,Max level reached
+skill.short,Còn thiếu {0} {1},Need {0} more {1}
+skill.auto,Kỹ năng tự động tung trong chiến đấu.,Skills are cast automatically in battle.
+equip.worn_tag,Đang mặc,Worn
+equip.empty_slot,Chưa có trang bị nào cho ô này.,No items owned for this slot.
+equip.change,Thay đổi: {0},Change: {0}
+inv.all,Tất cả,All
+inv.empty,Chưa có vật phẩm. Đánh quái hoặc triệu hồi để nhận.,Nothing here yet. Defeat enemies or summon to get items.
+inv.owned,Sở hữu: {0}   Ô: {1},Owned: {0}   Slot: {1}
+inv.source,Nguồn rơi: {0},Drops from: {0}
+src.normal,Quái thường,Normal enemies
+src.elite,Tinh anh,Elites
+src.boss,Boss,Bosses
+# ---- Summon ----
+btn.close,Đóng,Close
+btn.continue,Tiếp tục,Continue
+summon.balance,Số dư: {0} {1},Balance: {0} {1}
+summon.pull_btn,Quay x{0}\n{1} {2},Pull x{0}\n{1} {2}
+summon.short,Còn thiếu {0} {1} để quay,Need {0} more {1} to pull
+summon.rates,Tỷ lệ,Rates
+summon.last,Kết quả gần nhất,Last result
+summon.note,Giá quay nhân theo số lượt (không giảm giá).\nTrùng vật phẩm được giữ thành bản sao.,Cost scales with the number of pulls (no discount).\nDuplicates are kept as extra copies.
+summon.rates_title,Tỷ lệ: {0},Rates: {0}
+summon.rule,Mỗi lượt quay tốn {0} {1}.,Each pull costs {0} {1}.
+summon.rate_line,{0}: {1},{0}: {1}
+summon.result_title,Nhận được ({0} lượt),Obtained ({0} pulls)
+summon.got_owned,Nhận {0}   Đang sở hữu {1},Got {0}   Owned {1}
+# ---- Meta screens ----
+nav.more,Thêm,More
+nav.more_alert,Thêm (!),More (!)
+btn.open,Mở,Open
+upgrades.footer,Linh Thạch {0}   Linh Khí {1}   Tinh Hoa {2},Spirit Stone {0}   Spirit Qi {1}   Essence {2}
+quest.claim_all,Nhận tất cả ({0}),Claim all ({0})
+more.quests,Nhiệm vụ hằng ngày,Daily quests
+more.stage,Màn chơi và Boss,Stage and Boss
+more.settings,Cài đặt,Settings
+more.claimable,({0} chờ nhận),({0} to claim)
+stage.wave,Màn {0}/{1},Wave {0}/{1}
+stage.boss,Boss: {0}\nBoss đã hạ: {1}   Thưởng x{2},Boss: {0}\nBosses defeated: {1}   Reward x{2}
+stage.retry_note,Nếu thua Boss bạn quay lại cày màn {0} và phải tự thách đấu lại.,If the Boss wins you return to farming wave {0} and must challenge again manually.
+stage.map_row,{0}. {1}\n{2},{0}. {1}\n{2}
+stage.map_cleared,Đã vượt qua,Cleared
+stage.map_current,Đang ở đây,Current
+stage.map_locked,Khóa - hạ Boss của khu vực trước để mở,Locked - defeat the previous Boss to unlock
+settings.sound,Âm thanh,Sound
+settings.language,Ngôn ngữ,Language
+settings.on,Bật,On
+settings.off,Tắt,Off
+settings.reset,Xóa dữ liệu và chơi lại,Erase data and start over
+settings.reset_btn,Xóa,Erase
+settings.reset_confirm1,Xóa toàn bộ tiến trình và chơi lại từ đầu?,Erase all progress and start over?
+settings.reset_confirm2,Xác nhận lần cuối.\nTiến trình hiện tại sẽ bị gỡ khỏi trò chơi. Một bản sao tệp lưu được giữ trong thư mục lưu trữ.,Final confirmation.\nYour current progress will be removed from the game. A copy of the save file is kept in the save folder.
+settings.reset_final,Xóa và chơi lại,Erase and restart

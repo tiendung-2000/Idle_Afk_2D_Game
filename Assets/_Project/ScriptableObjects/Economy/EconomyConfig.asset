@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8b8ac91df834d43a15189f17e4df5a, type: 3}
+  m_Name: EconomyConfig
+  m_EditorClassIdentifier: PixelImmortal.Runtime::PixelImmortal.Data.EconomyConfig
+  upgrades:
+  - {fileID: 11400000, guid: 43423dd1c8aaaca48a3d145febe80bfa, type: 2}
+  - {fileID: 11400000, guid: a9f29481c07b4884c9cb399da134293a, type: 2}
+  - {fileID: 11400000, guid: 504fa7286830d754eb6412460b685d1a, type: 2}
+  - {fileID: 11400000, guid: f3edc93e2fcb6af47aeee9c9cb5be551, type: 2}
+  - {fileID: 11400000, guid: 562a64fbae6fa4c47ac451b20bfe31c2, type: 2}
+  - {fileID: 11400000, guid: 1bae0e6a7b3baf24380663f1aee9c7ae, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 82be8fa85298c1c48945945a0a23f75a, type: 2}
+  - {fileID: 11400000, guid: 13f0b28e3e3a99f44888720a64841c09, type: 2}
+  - {fileID: 11400000, guid: 0d77151c29726a241a4a937fbe60a29b, type: 2}
+  - {fileID: 11400000, guid: ff5214ba6ea15a14aa2e5f3dbcc60824, type: 2}
+  - {fileID: 11400000, guid: a471952a51b7a0e4c8bdc92f7cc3743c, type: 2}
+  realms:
+  - id: luyen_khi_1
+    displayName: "Luy\u1EC7n Kh\xED 1"
+    linhKhiCost: 0
+    linhThachCost: 0
+    minChapter: 1
+    attackMultiplier: 1
+    hpMultiplier: 1
+  - id: luyen_khi_2
+    displayName: "Luy\u1EC7n Kh\xED 2"
+    linhKhiCost: 100
+    linhThachCost: 200
+    minChapter: 1
+    attackMultiplier: 1.1
+    hpMultiplier: 1.1
+  - id: luyen_khi_3
+    displayName: "Luy\u1EC7n Kh\xED 3"
+    linhKhiCost: 200
+    linhThachCost: 450
+    minChapter: 1
+    attackMultiplier: 1.1
+    hpMultiplier: 1.1
+  - id: truc_co_1
+    displayName: "Tr\xFAc C\u01A1 1"
+    linhKhiCost: 400
+    linhThachCost: 1000
+    minChapter: 2
+    attackMultiplier: 1.15
+    hpMultiplier: 1.15
+  - id: truc_co_2
+    displayName: "Tr\xFAc C\u01A1 2"
+    linhKhiCost: 800
+    linhThachCost: 2000
+    minChapter: 3
+    attackMultiplier: 1.15
+    hpMultiplier: 1.15
+  - id: truc_co_3
+    displayName: "Tr\xFAc C\u01A1 3"
+    linhKhiCost: 1500
+    linhThachCost: 4000
+    minChapter: 4
+    attackMultiplier: 1.15
+    hpMultiplier: 1.15
+  - id: kim_dan_1
+    displayName: "Kim \u0110an 1"
+    linhKhiCost: 2800
+    linhThachCost: 8000
+    minChapter: 5
+    attackMultiplier: 1.2
+    hpMultiplier: 1.2
+  - id: kim_dan_2
+    displayName: "Kim \u0110an 2"
+    linhKhiCost: 5000
+    linhThachCost: 16000
+    minChapter: 6
+    attackMultiplier: 1.2
+    hpMultiplier: 1.2
+  - id: kim_dan_3
+    displayName: "Kim \u0110an 3"
+    linhKhiCost: 9000
+    linhThachCost: 32000
+    minChapter: 7
+    attackMultiplier: 1.2
+    hpMultiplier: 1.2
+  items:
+  - {fileID: 11400000, guid: 4dc3c03167cbf9c41a271b9a893a6be9, type: 2}
+  - {fileID: 11400000, guid: 00372c6f51468f34baeb6dd087d2c708, type: 2}
+  - {fileID: 11400000, guid: 3747ee90d2b0da24e9da7aad289964f9, type: 2}
+  - {fileID: 11400000, guid: ba1099f59539369438b49939770ddd6a, type: 2}
+  - {fileID: 11400000, guid: 5da3d90324129df41956be4f59d7846d, type: 2}
+  - {fileID: 11400000, guid: 351d53ac70810504299f3228332aac6e, type: 2}
+  - {fileID: 11400000, guid: 9bc51817f9448664e9b36a0b2aa1a3cf, type: 2}
+  - {fileID: 11400000, guid: d41168f8bd5e83b4297c4246c013b07d, type: 2}
+  - {fileID: 11400000, guid: 482b70ac975ff33408bfe9965faabb64, type: 2}
+  - {fileID: 11400000, guid: 93bb013c135ff1c4cb8f065c3f2d4dc5, type: 2}
+  - {fileID: 11400000, guid: c41baf62d74e1784ea2416968cccab18, type: 2}
+  - {fileID: 11400000, guid: e96c3767db6795043949cc5c54f69940, type: 2}
+  - {fileID: 11400000, guid: 3d484fb357ad1bc4eab70499e7e1829e, type: 2}
+  - {fileID: 11400000, guid: 508a5f0f818606d4f91e5560f53d4106, type: 2}
+  - {fileID: 11400000, guid: 3d4c64a7cf540c543a9361228526ed0d, type: 2}
+  gachaPools:
+  - {fileID: 11400000, guid: ae547e42cbbec0545ade5f40ed7c37a9, type: 2}
+  normalDropChance: 0.01
+  eliteDropChance: 0.1
+  bossDropChance: 1
+  maxPullCount: 10
+  dailyQuests:
+  - {fileID: 11400000, guid: 824cfb4d3b578784c898a7704dee5a0a, type: 2}
+  - {fileID: 11400000, guid: 304f4d3b288031f4fb004279826e064c, type: 2}
+  - {fileID: 11400000, guid: 04e4164b7289c1045afe94dedff3929b, type: 2}
+  - {fileID: 11400000, guid: 370ef7994c785714bb8a1ff2c2394c9b, type: 2}
+  - {fileID: 11400000, guid: b79d1585c357c4e45b07a7af6f3b7dd9, type: 2}
+  - {fileID: 11400000, guid: c31df97cdc60403479736e7ed469c78c, type: 2}
+  normalKill:
+    linhThach: 5
+    linhKhi: 1.5
+    tinhHoa: 0
+  eliteKill:
+    linhThach: 25
+    linhKhi: 8
+    tinhHoa: 1
+  bossKill:
+    linhThach: 250
+    linhKhi: 80
+    tinhHoa: 10
+  baseCritChance: 0.05
+  maxCritChance: 0.75
+  baseCritMultiplier: 1.5
+  baseDamageReduction: 0
+  maxDamageReduction: 0.8
+  minAttackInterval: 0.15
+  baseOfflineEfficiency: 0.8
+  maxOfflineEfficiency: 1
+  offlineMaxHours: 12
+  offlineMinSeconds: 60
